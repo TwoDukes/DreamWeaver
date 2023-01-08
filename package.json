@@ -1,0 +1,11 @@
+{
+  "name": "new-project",
+  "author": "twodukes",
+  "publish": false,
+  "dependencies": {
+    "lib": "latest",
+    "openai": "^3.1.0",
+    "replicate-api": "^0.1.5",
+    "date-and-time": "^2.4.1"
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "name": "nmbai/dreamweaver-bot",
+  "timeout": 120000,
+  "connector": false,
+  "events": {
+    "functions/events/discord/bot_mention.js": {
+      "name": "discord.bot_mention"
+    },
+    "functions/events/discord/message/button/redream.js": {
+      "name": "discord.message.button.interaction",
+      "subtype": {
+        "custom_id": "redream_button"
+      }
+    },
+    "functions/events/discord/message/button/reimagine.js": {
+      "name": "discord.message.button.interaction",
+      "subtype": {
+        "custom_id": "reimagine_button"
+      }
+    },
+    "functions/events/discord/command/dream-direct.js": {
+      "name": "discord.command",
+      "subtype": {
+        "command": "dream-direct"
+      }
+    },
+    "functions/events/discord/command/dream.js": {
+      "name": "discord.command",
+      "subtype": {
+        "command": "dream"
+      }
+    }
+  },
+  "env": [
+    {
+      "name": "DS_KEY",
+      "description": "DreamStudio api key"
+    },
+    {
+      "name": "OPEN_AI_KEY",
+      "description": "open ai api key"
+    },
+    {
+      "name": "REPLICATE_KEY",
+      "description": "replicate api key"
+    }
+  ]
+}
