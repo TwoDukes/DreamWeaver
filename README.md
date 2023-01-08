@@ -1,7 +1,7 @@
 
 [<img src="https://open.autocode.com/static/images/open.svg?" width="192">](https://open.autocode.com/)
 
-Autocode based AI Discord bot
+### Autocode based AI Discord bot
 
 ## Features
  - Davinci-003 based chat with local channel history and contextual images generation
